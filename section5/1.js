@@ -1,0 +1,16 @@
+console.log("1- Basics");
+
+// Object literal syntax to create an object
+const circle = {
+  radius: 1,
+  location: {
+    x: 1,
+    y: 1
+  },
+  isVisible: true,
+  draw: function() {
+    console.log("draw");
+  }
+};
+
+circle.draw();
